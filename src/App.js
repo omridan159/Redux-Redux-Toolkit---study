@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import Login from './features/user/Login';
 
 function App() {
   return (
     <div className="App">
+      <Login />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
           Edit <code>src/App.js</code> and save to reload.
